@@ -29,8 +29,8 @@ public class Maze_Path_Problem {
 		return paths;
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
+	        System.out.println("ENTER DIMENSIONS OF MAZE:");
 		int n=sc.nextInt();
 		int m=sc.nextInt();
 		ArrayList<String> paths=getMazePaths(1,1,n,m);
